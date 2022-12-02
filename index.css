@@ -1,0 +1,41 @@
+/* * {
+  box-sizing: border-box;
+} */
+
+.wrapper {
+  background-color: purple;
+  vertical-align: middle;
+}
+.wrapper__title {
+  font-size: 18px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.wrapper__subtitle {
+  font-size: 11px;
+  vertical-align: middle;
+}
+.container {
+  width: 80%;
+}
+.green-card {
+  /* width: 400px; */
+  width: 200px;
+  height: 200px;
+  box-sizing: border-box;
+  background-color: greenyellow;
+  padding: 20px;
+}
+.yellow-card {
+  /* width: 50%; */
+  height: 200px;
+  width: 200px;
+  box-sizing: content-box;
+  background-color: yellow;
+  padding: 20px;
+}
+.red-card {
+  width: 50vw;
+  height: 200px;
+  background-color: red;
+}
